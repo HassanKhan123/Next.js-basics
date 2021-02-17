@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -17,6 +18,10 @@ export default function Home() {
         Magna reprehenderit reprehenderit laborum occaecat adipisicing duis
         consequat laborum commodo deserunt ea do consectetur.
       </p>
+
+      <Link href='/ninjas'>
+        <a>See all ninjas</a>
+      </Link>
       <Footer />
     </div>
   );
