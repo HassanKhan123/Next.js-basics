@@ -1,7 +1,11 @@
 import React from 'react';
 
 const ninjas = () => {
-  return <div>ninjas</div>;
+  return (
+    <div>
+      <h1>Ninjas</h1>
+    </div>
+  );
 };
 
 export default ninjas;

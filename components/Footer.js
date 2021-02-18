@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Footer() {
-  return <div>Copyright 2021 Khan</div>;
+  return <footer>Copyright 2021 Khan</footer>;
 }
 
 export default Footer;
