@@ -1,10 +1,16 @@
 import React from 'react';
+import Head from 'next/head';
 
 const ninjas = () => {
   return (
-    <div>
-      <h1>Ninjas</h1>
-    </div>
+    <>
+      <Head>
+        <title>Ninja List</title>
+      </Head>
+      <div>
+        <h1>Ninjas</h1>
+      </div>
+    </>
   );
 };
 
